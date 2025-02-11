@@ -1,5 +1,9 @@
+import java.io.PrintStream;
 public class Main {
-        public static void main(String[] args) {
+    public static void main(String[] args) {
+        // Устанавливаем UTF-8 для вывода в консоль
+        System.setOut(new java.io.PrintStream(System.out, true, "UTF-8"));
+
         // Создаем обычную задачу
         Task task = new Task("Учеба", "Подготовиться к экзамену");
         task.printTask();
