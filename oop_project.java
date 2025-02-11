@@ -1,8 +1,8 @@
-public class oop_project extends Task {
+public class UrgentTask extends Task {
     private String deadline;
 
     // Конструктор
-    public oop_project(String title, String description, String deadline) {
+    public UrgentTask(String title, String description, String deadline) {
         super(title, description);
         this.deadline = deadline;
     }
@@ -11,8 +11,7 @@ public class oop_project extends Task {
     public String getDeadline() {
         return deadline;
     }
-
-    // Переопределение метода printTask() (полиморфизм)
+    
     @Override
     public void printTask() {
         super.printTask();
