@@ -7,7 +7,7 @@ public class Main {
         System.out.println();
 
         // Создаем срочную задачу
-        UrgentTask urgentTask = new UrgentTask("Сдать проект", "Завершить проект по Java", "10 февраля 2025");
+        oop_project urgentTask = new oop_project("Сдать проект", "Завершить проект по Java", "10 февраля 2025");
         urgentTask.printTask();
     }
 }
